@@ -1,0 +1,182 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content= 
+		"width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="index.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<title>Landing Page</title> 
+</head> 
+
+<body> 
+	<nav> 
+		<div class="heading"><span class="copypaste">THE PRAN STUDIO</span></div> 
+		<span class="sideMenuButton"
+			onclick="openNavbar()"> 
+			☰ 
+		</span> 
+
+		<div class="navbar"> 
+			<ul> 
+				<li><a href="#HOME" class="copypaste">HOME</a></li> 
+				<li><a href="#" class="copypaste">ABOUT</a></li> 
+				<li><a href="#" class="copypaste">SIGN UP</a></li> 
+			</ul> 
+		</div> 
+	</nav> 
+
+	<!-- Side navigation bar for 
+		responsive website -->
+	<div class="sideNavigationBar"
+		id="sideNavigationBar"> 
+		<a href="#" class="closeButton"
+			onclick="closeNavbar()"> 
+			 
+		</a> 
+		<a href="#">Home</a> 
+		<a href="#">About</a> 
+		<a href="#">Sign Up</a> 
+	</div> 
+
+	<!-- Content -->
+	<div class="line" id="Home"> 
+		<div class="side1" style="width: 100%;"> 
+			<h1 style="text-align: center; color: whitesmoke;" class="libre">BRUNCH COFFEE FASHION</h1> 
+
+		</div> 
+		<div class="side2"> 
+			<!-- <img src= 
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401124017/HTML-Tutorial.png"
+				width="500">  -->
+		</div> 
+	</div> 
+
+	<section class="about" id="My Projects"> 
+		<div class="content"> 
+            <div style="width: 100%;justify-content: center;display: flex;">
+			<button> 
+				<a href= 
+"https://instagram.com/adyasshachakra"" class="libre"> 
+					EXPLORE MORE
+				</a> 
+			</button> 
+            </div>
+            <div style="width: 100%;height: 5px;background-color: white;margin-top: 20px;"></div>
+			<div class="boxes"> 
+				<div id="a" class="box" onmouseenter="mUp(this)" onmouseleave="mDown(this)"> 
+					<div class="topic"> 
+						<a href="" target="_blank" style="color: white;"> 
+							BRUNCH
+						</a> 
+					</div> 
+					<p> 
+						The term BRUNCH stands for a hearty meal right before noon. We at PRAN STUDIO serve delicacies cooked with love and our home grown organic produce.
+					</p> 
+				</div> 
+				<div  id="b" class="box" onmouseenter="mUp(this)" onmouseleave="mDown(this)"> 
+
+					<div class="topic"> 
+						<a href="" target="_blank" style="color: white;"> 
+							COFFEE
+						</a> 
+					</div> 
+					<p> 
+						Caffeine is turned into an experience by our expert baristas. Hand picked coffee beans from our estates, roasted to perfection and brewed to your best liking,
+					</p> 
+				</div> 
+
+				<div id="c" class="box" onmouseenter="mUp(this)" onmouseleave="mDown(this)"> 
+					<div class="topic"> 
+						<a href="" target="_blank" style="color: white;"> 
+							FASHION 
+						</a> 
+					</div> 
+					<p> 
+						At PRAN STUDIO we strive for sustainability. Fabric wastes, katrans, unused wool and tie dyes all blended into one, create the best one of a kind piece, just for you.
+					</p> 
+				</div> 
+			</div> 
+            <div style="width: 100%;height: 5px;background-color: white;margin-top: 20px;"></div>
+		</div> 
+	</section> 
+
+	<section class="contact" id="contact"> 
+		<div class="content"> 
+			<div class="title"><span class="libre" style="color: white;">SIGN UP</span></div> 
+			<div class="contactMenu"> 
+				<div class="input1"> 
+					<div class="label1 libre" style="color: white;">Your Name</div> 
+					<div class="input2 libre"> 
+						<input type="text"
+							placeholder="Enter your Name here" style="background-color: #8cc099;"> 
+					</div> 
+					<div class="label1"> 
+						<label style="color: white;">Your Email</label> 
+					</div> 
+					<div class="input2"> 
+						<input type="text"
+							placeholder="Enter your Email here" style="background-color: #8cc099;"> 
+					</div> 
+					<div class="label1"> 
+						<label style="color: white;">Your Password</label> 
+					</div> 
+					<div class="input2"> 
+						<input type="text"
+							placeholder="Enter your Password here" style="background-color: #8cc099;"> 
+					</div> 
+					<div class="button"> 
+						<button>Sign Up</button> 
+					</div> 
+				</div> 
+				<div class="input3"> 
+					<div class="rightside1"> 
+						<div class="title1" style="color: white;"> 
+							<span> 
+								CONTACT US
+							</span> 
+						</div> 
+						<div class="content1" style="color: white;"> 
+							THE PRAN STUDIO, AYANAGAR, NEW DELHI
+						</div> 
+						<div class="title1" style="color: white;"> 
+							<span>MORE INFORMATION</span> 
+						</div> 
+						<div class="content1" style="color: white;"> 
+							Greetings to all the earthlings out there! 
+							We welcome you to the platform where we 
+							consistently strive to offer the best 
+							of experience. This platform has been 
+							designed for each creative mind wishing to 
+							expand their passion, share their 
+							joy and is ready to grab an experience. We have millions of lives changing everyday, thousands 
+							of experiences given out and much more just for the 
+							zeal inside you.<br><br> Thank you for choosing 
+							and supporting us! 
+						</div> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+	<!-- Footer section -->
+	<footer> 
+		<div class="footer"> 
+			<span> 
+				Founded By 
+				<a href="https://instagram.com/adyasshachakra"
+					target="_blank" ><b>
+					ADYASHA PRAN CHAKRA</b> 
+				</a> 
+			</span> 
+		</div> 
+	</footer> 
+	<script src="index.js"></script> 
+</body> 
+
+</html>
